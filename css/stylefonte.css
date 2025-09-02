@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+@font-face {
+    font-family: minhafonte;
+    src: url(/fonte/LA\ TRUITE\ A\ PAPA.ttf);
+}
+
+h1{
+  font-family: minhafonte;
+  color: rgb(0, 0, 0);
+}
