@@ -16,7 +16,8 @@
 /* ---------- ESTILOS GERAIS ---------- */
 body {
     font-family: "Segoe UI", sans-serif;
-    background-color: #1b2735; /* Fundo azul escuro */
+    background-color: #1b2735;
+    /* Fundo azul escuro */
     color: #fff;
     text-align: center;
 }
@@ -32,7 +33,8 @@ header h1 {
     font-family: minhafonte;
     font-size: 3rem;
     color: #fff;
-    letter-spacing: 4px; /* espaçamento entre as letras */
+    letter-spacing: 4px;
+    /* espaçamento entre as letras */
     text-shadow: 2px 2px 4px #000;
 }
 
@@ -64,7 +66,8 @@ nav a:hover {
 section {
     background-color: #ffffff;
     color: #000;
-    width: 100%; /* ocupa toda a largura */
+    width: 100%;
+    /* ocupa toda a largura */
     padding: 30px;
     border-top: 5px solid #f5c542;
     border-bottom: 5px solid #f5c542;
@@ -95,15 +98,26 @@ footer {
     border-top: 5px solid #f5c542;
     font-size: 0.9rem;
 }
+
 table {
-    text-align: center;       /* Alinha o texto no centro */
-    border-collapse: collapse; /* Remove bordas duplas */
-    width: 400px;             /* Largura da tabela */
-    margin: auto;             /* Centraliza na tela */
-    background-color: #ffffff; /* Fundo branco para destacar */
+    text-align: center;
+    /* Alinha o texto no centro */
+    border-collapse: collapse;
+    /* Remove bordas duplas */
+    width: 400px;
+    /* Largura da tabela */
+    margin: auto;
+    /* Centraliza na tela */
+    background-color: #ffffff;
+    /* Fundo branco para destacar */
 }
-td, th {
-    padding: 10px;              /* Espaçamento interno */
-    text-align: left;           /* Alinha o texto à esquerda */
-    border-bottom: 1px solid #ddd; /* Linha cinza na parte de baixo */
+
+td,
+th {
+    padding: 10px;
+    /* Espaçamento interno */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+    border-bottom: 1px solid #ddd;
+    /* Linha cinza na parte de baixo */
 }

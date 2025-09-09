@@ -1,12 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 
 @font-face {
-    font-family: minhafonte;
-    src: url(/fonte/BebasNeue-Regular.otf);
+  font-family: minhafonte;
+  src: url(/fonte/BebasNeue-Regular.otf);
 }
 
-h1{
+h1 {
   font-family: minhafonte;
   color: rgb(0, 0, 0);
   letter-spacing: 3px;
