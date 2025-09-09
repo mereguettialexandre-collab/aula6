@@ -3,10 +3,11 @@
 
 @font-face {
     font-family: minhafonte;
-    src: url(/fonte/LA\ TRUITE\ A\ PAPA.ttf);
+    src: url(/fonte/BebasNeue-Regular.otf);
 }
 
 h1{
   font-family: minhafonte;
   color: rgb(0, 0, 0);
+  letter-spacing: 3px;
 }

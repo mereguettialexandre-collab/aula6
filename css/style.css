@@ -1,0 +1,109 @@
+/* ---------- RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- FONTE ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+@font-face {
+    font-family: minhafonte;
+    src: url(/fonte/Sketch\ Gothic\ School.ttf);
+}
+
+/* ---------- ESTILOS GERAIS ---------- */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #1b2735; /* Fundo azul escuro */
+    color: #fff;
+    text-align: center;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background-color: #0057b8;
+    padding: 20px;
+    border-bottom: 5px solid #f5c542;
+}
+
+header h1 {
+    font-family: minhafonte;
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 4px; /* espaçamento entre as letras */
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* ---------- MENU ---------- */
+nav {
+    background-color: #263238;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f5c542;
+}
+
+/* ---------- SEÇÃO PRINCIPAL ---------- */
+section {
+    background-color: #ffffff;
+    color: #000;
+    width: 100%; /* ocupa toda a largura */
+    padding: 30px;
+    border-top: 5px solid #f5c542;
+    border-bottom: 5px solid #f5c542;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+section img {
+    max-width: 60%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+section a {
+    color: #0057b8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #f5c542;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #263238;
+    color: #ccc;
+    padding: 15px;
+    border-top: 5px solid #f5c542;
+    font-size: 0.9rem;
+}
+table {
+    text-align: center;       /* Alinha o texto no centro */
+    border-collapse: collapse; /* Remove bordas duplas */
+    width: 400px;             /* Largura da tabela */
+    margin: auto;             /* Centraliza na tela */
+    background-color: #ffffff; /* Fundo branco para destacar */
+}
+td, th {
+    padding: 10px;              /* Espaçamento interno */
+    text-align: left;           /* Alinha o texto à esquerda */
+    border-bottom: 1px solid #ddd; /* Linha cinza na parte de baixo */
+}
